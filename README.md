@@ -1,10 +1,11 @@
 # Bookmark Server
 
-In this exercise, you'll create a *bookmark server* or URL-shortening service,
-similar to `TinyURL.com` or `goo.gl`, but with no persistent storage.
+1. Start server in your terminal:
+```python BookmarkServer.py```
 
-This server will accept a URL and a short name, check that the URL actually
-works (returns an HTTP 200), then store it in a Python dictionary.
+2. Assign URI to short path (any name you choose) using the form. For example:
+* Long URI: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+* Short name: JS-tutorial
 
-See `BookmarkServer.py` for starter code and instructions.
-
+3. Copy/paste your short path to the end of the URI in your address bar.
+  ex. http://localhost:8000/JS-tutorial
